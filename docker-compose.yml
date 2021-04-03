@@ -6,6 +6,6 @@ services:
     dockerfile: Dockerfile
    volumes:
     - ./:/usr/src/app
-   command: sh -c "cd react-sample && yarn start"
+   command: sh -c "cd ${APP_NAME} && yarn start"
    ports:
      - "3000:3000"
