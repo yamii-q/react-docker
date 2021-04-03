@@ -23,3 +23,8 @@ runコマンド使用で外部から叩ける。コンテナの中に入って�
 ```
 docker-compose run web sh -c "ls /bin/"
 ```
+
+## 試してみたライブラリ
+react-loader-spinner
+https://www.npmjs.com/package/react-loader-spinner
+
